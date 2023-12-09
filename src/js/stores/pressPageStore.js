@@ -75,10 +75,7 @@ const movePrevPage = (page, pressMap) => {
 const moveNextPage = (page, pressMap) => {
   const LAST_CATEGORY = pressMap.size - 1;
   page.pageIndex++;
-  if (
-    page.pageIndex ===
-    [...pressMap.values()][page.categoryIndex].length - 1
-  ) {
+  if (page.pageIndex === [...pressMap.values()][page.categoryIndex].length - 1) {
     page.categoryIndex++;
     if (page.categoryIndex > LAST_CATEGORY) page.categoryIndex = 0;
     page.pageIndex = 0;

@@ -22,12 +22,12 @@
 
   .prev-button {
     left: -55px;
-    background-image: url('/src/assets/icons/LeftButton.svg');
+    background: icon(left, $gray200);
   }
 
   .next-button {
     right: -55px;
-    background-image: url('/src/assets/icons/RightButton.svg');
+    background: icon(right, $gray200);
   }
 
   .grid-area {

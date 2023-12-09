@@ -20,8 +20,8 @@ class Store {
     this.#listeners.forEach((fn) => fn());
   }
 
-  async dispatch(actionKey, { ...payload } = {}) {
-    this.#state = await this.#reducer(this.#state, actionKey, { ...payload });
+  dispatch(actionKey, { ...payload } = {}) {
+    this.#state = this.#reducer(this.#state, actionKey, { ...payload });
     this.publish();
   }
 }
