@@ -58,11 +58,7 @@
 
 ### 🤔 프로젝트 회고
 
-순수 JavaScript로 SPA를 구현하기 위해 MVC패턴, Flux패턴, Vanilla JavaScript web component 생성하는 방법 등 여러 가지 방법을 고민하다 SPA의 가장 큰 특징인 단방향 데이터 흐름을 구현할 수 있는 Flux 패턴을 적용하기로 하였습니다.
-
-순수 JavaScript로 SPA를 구현하는 과정에서 여러 가지 패턴을 고민해본 결과, 단방향 데이터 흐름을 구현할 수 있는 Flux 패턴을 적용하게 되었습니다.
-
-Flux패턴을 결정하게 된 이유는 다음과 같습니다.
+순수 JavaScript로 SPA를 구현하기 위해 MVC패턴, Flux패턴, Vanilla JavaScript web component 생성하는 방법 등 여러 가지 방법을 고민하다 SPA의 가장 큰 특징인 단방향 데이터 흐름을 구현할 수 있는 Flux 패턴을 적용하기로 하였습니다. Flux패턴을 결정하게 된 이유는 다음과 같습니다.
 
 1. React가 Flux 패턴을 기반으로 만들어졌다.  
    (React 프로젝트를 진행하기에 앞서, Flux 패턴을 깊이 이해하면 도움이 될 것이라 판단하였습니다.)
